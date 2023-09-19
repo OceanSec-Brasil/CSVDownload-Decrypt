@@ -1,36 +1,32 @@
-# CSVDownload
+# CSV Decrypter
 
-## Descrição
+## Introdução
 
-O CSVDownload.py é um script em Python que automatiza o download e a desencriptação de arquivos CSV encriptados. Ele foi construído especificamente para baixar um arquivo CSV de um URL específico, desencriptá-lo usando uma chave fornecida e salvar o resultado como salarios.csv.
+decrypt.py é um script Python utilizado para descriptografar arquivos CSV. Este script é parte de um desafio de mapeamento. Seu objetivo é duplo:
 
-## Pré-requisitos
+1 - Encontrar a senha que foi deixada no código (DICA: ALGUMAS EMPRESAS DEIXAM SENHAS EM CÓDIGOS).
+2 - Identificar a URL de onde o arquivo encriptado pode ser baixado. Talvez um pouco de OSINT (Open Source Intelligence) possa ajudar?
+3 - Uma vez que você tenha essas informações, pode modificar o código conforme necessário e usar o script para descriptografar o arquivo CSV.
 
-- Python 3.x
-- Bibliotecas Python: requests, cryptography
+## Requisitos
 
-Para instalar as dependências, execute:
+ - Python 3.x
+ - Bibliotecas: os, requests, Crypto, pandas
+
+# Como Usar
+
+1 - Clone este repositório para sua máquina local
+2 - Entre no diretório do projeto e instale as dependências necessárias
+3 - Modifique o script: Antes de executar o script, certifique-se de encontrar e substituir a chave (senha) e a URL no código.
+4 - Execute o script:
 ```
-pip install requests cryptography
+python decrypt.py
 ```
-## Como usar
 
-1 - Clone este repositório.
-2 - Abra o terminal e navegue até o diretório onde o CSVDownload.py foi salvo.
-3 - Execute o script fornecendo a chave como argumento.
+# Notas Adicionais
 
-Exemplo:
-```
-python CSVDownload.py -k chave
-```
-Para obter ajuda, você pode executar:
-```
-python CSVDownload.py -h
-```
-## Notas
+Este desafio foi criado para fins educativos. Ele serve para testar sua capacidade de encontrar informações ocultas e entender a lógica por trás dos códigos. Boa sorte!
 
-Este script é apenas para fins educativos e deve ser usado em ambientes autorizados.
+# Licença
 
-## Licença
-
-MIT
+Licença MIT. Consulte o arquivo LICENSE no repositório para obter mais detalhes.
